@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Adventurer.h"
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) Adventurer *adventurer;
 
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
