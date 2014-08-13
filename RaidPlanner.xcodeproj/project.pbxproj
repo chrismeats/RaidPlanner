@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF81BB72199BBC5B00C3E40E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF81BB71199BBC5B00C3E40E /* Foundation.framework */; };
+		DF81BB74199BBC5B00C3E40E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF81BB73199BBC5B00C3E40E /* CoreGraphics.framework */; };
+		DF81BB76199BBC5B00C3E40E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF81BB75199BBC5B00C3E40E /* UIKit.framework */; };
+		DF81BB78199BBC5B00C3E40E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF81BB77199BBC5B00C3E40E /* CoreData.framework */; };
+		DF81BB7E199BBC5B00C3E40E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF81BB7C199BBC5B00C3E40E /* InfoPlist.strings */; };
+		DF81BB80199BBC5C00C3E40E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF81BB7F199BBC5C00C3E40E /* main.m */; };
+		DF81BB84199BBC5C00C3E40E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF81BB83199BBC5C00C3E40E /* AppDelegate.m */; };
+		DF81BB87199BBC5C00C3E40E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF81BB85199BBC5C00C3E40E /* Main.storyboard */; };
+		DF81BB8A199BBC5C00C3E40E /* RaidPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF81BB88199BBC5C00C3E40E /* RaidPlanner.xcdatamodeld */; };
+		DF81BB8D199BBC5C00C3E40E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF81BB8C199BBC5C00C3E40E /* MasterViewController.m */; };
+		DF81BB90199BBC5C00C3E40E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF81BB8F199BBC5C00C3E40E /* DetailViewController.m */; };
+		DF81BB92199BBC5C00C3E40E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF81BB91199BBC5C00C3E40E /* Images.xcassets */; };
+		DF81BB99199BBC5C00C3E40E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF81BB98199BBC5C00C3E40E /* XCTest.framework */; };
+		DF81BB9A199BBC5C00C3E40E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF81BB71199BBC5B00C3E40E /* Foundation.framework */; };
+		DF81BB9B199BBC5C00C3E40E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF81BB75199BBC5B00C3E40E /* UIKit.framework */; };
+		DF81BB9C199BBC5C00C3E40E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF81BB77199BBC5B00C3E40E /* CoreData.framework */; };
+		DF81BBA4199BBC5C00C3E40E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF81BBA2199BBC5C00C3E40E /* InfoPlist.strings */; };
+		DF81BBA6199BBC5C00C3E40E /* RaidPlannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF81BBA5199BBC5C00C3E40E /* RaidPlannerTests.m */; };
+		DF81BBB1199BBD5B00C3E40E /* Raid.m in Sources */ = {isa = PBXBuildFile; fileRef = DF81BBB0199BBD5B00C3E40E /* Raid.m */; };
+		DF81BBB4199BBD5C00C3E40E /* Adventurer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF81BBB3199BBD5C00C3E40E /* Adventurer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF81BB9D199BBC5C00C3E40E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF81BB66199BBC5B00C3E40E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF81BB6D199BBC5B00C3E40E;
+			remoteInfo = RaidPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF81BB6E199BBC5B00C3E40E /* RaidPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaidPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF81BB71199BBC5B00C3E40E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF81BB73199BBC5B00C3E40E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF81BB75199BBC5B00C3E40E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF81BB77199BBC5B00C3E40E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF81BB7B199BBC5B00C3E40E /* RaidPlanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaidPlanner-Info.plist"; sourceTree = "<group>"; };
+		DF81BB7D199BBC5B00C3E40E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF81BB7F199BBC5C00C3E40E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF81BB81199BBC5C00C3E40E /* RaidPlanner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaidPlanner-Prefix.pch"; sourceTree = "<group>"; };
+		DF81BB82199BBC5C00C3E40E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF81BB83199BBC5C00C3E40E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF81BB86199BBC5C00C3E40E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF81BB89199BBC5C00C3E40E /* RaidPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RaidPlanner.xcdatamodel; sourceTree = "<group>"; };
+		DF81BB8B199BBC5C00C3E40E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DF81BB8C199BBC5C00C3E40E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DF81BB8E199BBC5C00C3E40E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DF81BB8F199BBC5C00C3E40E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DF81BB91199BBC5C00C3E40E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF81BB97199BBC5C00C3E40E /* RaidPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaidPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF81BB98199BBC5C00C3E40E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DF81BBA1199BBC5C00C3E40E /* RaidPlannerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaidPlannerTests-Info.plist"; sourceTree = "<group>"; };
+		DF81BBA3199BBC5C00C3E40E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF81BBA5199BBC5C00C3E40E /* RaidPlannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaidPlannerTests.m; sourceTree = "<group>"; };
+		DF81BBAF199BBD5B00C3E40E /* Raid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Raid.h; sourceTree = "<group>"; };
+		DF81BBB0199BBD5B00C3E40E /* Raid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Raid.m; sourceTree = "<group>"; };
+		DF81BBB2199BBD5C00C3E40E /* Adventurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adventurer.h; sourceTree = "<group>"; };
+		DF81BBB3199BBD5C00C3E40E /* Adventurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adventurer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF81BB6B199BBC5B00C3E40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF81BB74199BBC5B00C3E40E /* CoreGraphics.framework in Frameworks */,
+				DF81BB78199BBC5B00C3E40E /* CoreData.framework in Frameworks */,
+				DF81BB76199BBC5B00C3E40E /* UIKit.framework in Frameworks */,
+				DF81BB72199BBC5B00C3E40E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF81BB94199BBC5C00C3E40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF81BB99199BBC5C00C3E40E /* XCTest.framework in Frameworks */,
+				DF81BB9C199BBC5C00C3E40E /* CoreData.framework in Frameworks */,
+				DF81BB9B199BBC5C00C3E40E /* UIKit.framework in Frameworks */,
+				DF81BB9A199BBC5C00C3E40E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF81BB65199BBC5B00C3E40E = {
+			isa = PBXGroup;
+			children = (
+				DF81BB79199BBC5B00C3E40E /* RaidPlanner */,
+				DF81BB9F199BBC5C00C3E40E /* RaidPlannerTests */,
+				DF81BB70199BBC5B00C3E40E /* Frameworks */,
+				DF81BB6F199BBC5B00C3E40E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF81BB6F199BBC5B00C3E40E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF81BB6E199BBC5B00C3E40E /* RaidPlanner.app */,
+				DF81BB97199BBC5C00C3E40E /* RaidPlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF81BB70199BBC5B00C3E40E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF81BB71199BBC5B00C3E40E /* Foundation.framework */,
+				DF81BB73199BBC5B00C3E40E /* CoreGraphics.framework */,
+				DF81BB75199BBC5B00C3E40E /* UIKit.framework */,
+				DF81BB77199BBC5B00C3E40E /* CoreData.framework */,
+				DF81BB98199BBC5C00C3E40E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF81BB79199BBC5B00C3E40E /* RaidPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				DF81BB82199BBC5C00C3E40E /* AppDelegate.h */,
+				DF81BB83199BBC5C00C3E40E /* AppDelegate.m */,
+				DF81BB85199BBC5C00C3E40E /* Main.storyboard */,
+				DF81BB8B199BBC5C00C3E40E /* MasterViewController.h */,
+				DF81BB8C199BBC5C00C3E40E /* MasterViewController.m */,
+				DF81BB8E199BBC5C00C3E40E /* DetailViewController.h */,
+				DF81BB8F199BBC5C00C3E40E /* DetailViewController.m */,
+				DF81BB91199BBC5C00C3E40E /* Images.xcassets */,
+				DF81BB88199BBC5C00C3E40E /* RaidPlanner.xcdatamodeld */,
+				DF81BBB2199BBD5C00C3E40E /* Adventurer.h */,
+				DF81BBB3199BBD5C00C3E40E /* Adventurer.m */,
+				DF81BBAF199BBD5B00C3E40E /* Raid.h */,
+				DF81BBB0199BBD5B00C3E40E /* Raid.m */,
+				DF81BB7A199BBC5B00C3E40E /* Supporting Files */,
+			);
+			path = RaidPlanner;
+			sourceTree = "<group>";
+		};
+		DF81BB7A199BBC5B00C3E40E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF81BB7B199BBC5B00C3E40E /* RaidPlanner-Info.plist */,
+				DF81BB7C199BBC5B00C3E40E /* InfoPlist.strings */,
+				DF81BB7F199BBC5C00C3E40E /* main.m */,
+				DF81BB81199BBC5C00C3E40E /* RaidPlanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF81BB9F199BBC5C00C3E40E /* RaidPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF81BBA5199BBC5C00C3E40E /* RaidPlannerTests.m */,
+				DF81BBA0199BBC5C00C3E40E /* Supporting Files */,
+			);
+			path = RaidPlannerTests;
+			sourceTree = "<group>";
+		};
+		DF81BBA0199BBC5C00C3E40E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF81BBA1199BBC5C00C3E40E /* RaidPlannerTests-Info.plist */,
+				DF81BBA2199BBC5C00C3E40E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF81BB6D199BBC5B00C3E40E /* RaidPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF81BBA9199BBC5C00C3E40E /* Build configuration list for PBXNativeTarget "RaidPlanner" */;
+			buildPhases = (
+				DF81BB6A199BBC5B00C3E40E /* Sources */,
+				DF81BB6B199BBC5B00C3E40E /* Frameworks */,
+				DF81BB6C199BBC5B00C3E40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaidPlanner;
+			productName = RaidPlanner;
+			productReference = DF81BB6E199BBC5B00C3E40E /* RaidPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF81BB96199BBC5C00C3E40E /* RaidPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF81BBAC199BBC5C00C3E40E /* Build configuration list for PBXNativeTarget "RaidPlannerTests" */;
+			buildPhases = (
+				DF81BB93199BBC5C00C3E40E /* Sources */,
+				DF81BB94199BBC5C00C3E40E /* Frameworks */,
+				DF81BB95199BBC5C00C3E40E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF81BB9E199BBC5C00C3E40E /* PBXTargetDependency */,
+			);
+			name = RaidPlannerTests;
+			productName = RaidPlannerTests;
+			productReference = DF81BB97199BBC5C00C3E40E /* RaidPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF81BB66199BBC5B00C3E40E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = cmeats;
+				TargetAttributes = {
+					DF81BB96199BBC5C00C3E40E = {
+						TestTargetID = DF81BB6D199BBC5B00C3E40E;
+					};
+				};
+			};
+			buildConfigurationList = DF81BB69199BBC5B00C3E40E /* Build configuration list for PBXProject "RaidPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF81BB65199BBC5B00C3E40E;
+			productRefGroup = DF81BB6F199BBC5B00C3E40E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF81BB6D199BBC5B00C3E40E /* RaidPlanner */,
+				DF81BB96199BBC5C00C3E40E /* RaidPlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF81BB6C199BBC5B00C3E40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF81BB92199BBC5C00C3E40E /* Images.xcassets in Resources */,
+				DF81BB7E199BBC5B00C3E40E /* InfoPlist.strings in Resources */,
+				DF81BB87199BBC5C00C3E40E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF81BB95199BBC5C00C3E40E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF81BBA4199BBC5C00C3E40E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF81BB6A199BBC5B00C3E40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF81BB90199BBC5C00C3E40E /* DetailViewController.m in Sources */,
+				DF81BBB4199BBD5C00C3E40E /* Adventurer.m in Sources */,
+				DF81BB8D199BBC5C00C3E40E /* MasterViewController.m in Sources */,
+				DF81BB84199BBC5C00C3E40E /* AppDelegate.m in Sources */,
+				DF81BB8A199BBC5C00C3E40E /* RaidPlanner.xcdatamodeld in Sources */,
+				DF81BB80199BBC5C00C3E40E /* main.m in Sources */,
+				DF81BBB1199BBD5B00C3E40E /* Raid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF81BB93199BBC5C00C3E40E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF81BBA6199BBC5C00C3E40E /* RaidPlannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF81BB9E199BBC5C00C3E40E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF81BB6D199BBC5B00C3E40E /* RaidPlanner */;
+			targetProxy = DF81BB9D199BBC5C00C3E40E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF81BB7C199BBC5B00C3E40E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF81BB7D199BBC5B00C3E40E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF81BB85199BBC5C00C3E40E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF81BB86199BBC5C00C3E40E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF81BBA2199BBC5C00C3E40E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF81BBA3199BBC5C00C3E40E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF81BBA7199BBC5C00C3E40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF81BBA8199BBC5C00C3E40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF81BBAA199BBC5C00C3E40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaidPlanner/RaidPlanner-Prefix.pch";
+				INFOPLIST_FILE = "RaidPlanner/RaidPlanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF81BBAB199BBC5C00C3E40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaidPlanner/RaidPlanner-Prefix.pch";
+				INFOPLIST_FILE = "RaidPlanner/RaidPlanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DF81BBAD199BBC5C00C3E40E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RaidPlanner.app/RaidPlanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaidPlanner/RaidPlanner-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RaidPlannerTests/RaidPlannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DF81BBAE199BBC5C00C3E40E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RaidPlanner.app/RaidPlanner";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RaidPlanner/RaidPlanner-Prefix.pch";
+				INFOPLIST_FILE = "RaidPlannerTests/RaidPlannerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF81BB69199BBC5B00C3E40E /* Build configuration list for PBXProject "RaidPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF81BBA7199BBC5C00C3E40E /* Debug */,
+				DF81BBA8199BBC5C00C3E40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF81BBA9199BBC5C00C3E40E /* Build configuration list for PBXNativeTarget "RaidPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF81BBAA199BBC5C00C3E40E /* Debug */,
+				DF81BBAB199BBC5C00C3E40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF81BBAC199BBC5C00C3E40E /* Build configuration list for PBXNativeTarget "RaidPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF81BBAD199BBC5C00C3E40E /* Debug */,
+				DF81BBAE199BBC5C00C3E40E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF81BB88199BBC5C00C3E40E /* RaidPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF81BB89199BBC5C00C3E40E /* RaidPlanner.xcdatamodel */,
+			);
+			currentVersion = DF81BB89199BBC5C00C3E40E /* RaidPlanner.xcdatamodel */;
+			path = RaidPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF81BB66199BBC5B00C3E40E /* Project object */;
+}
